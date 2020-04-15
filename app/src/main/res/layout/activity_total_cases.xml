@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TotalCases">
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/total_cases"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40sp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+            <TextView
+                android:id="@+id/total"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/total"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/confirm_cases_india"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/total"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+            <TextView
+                android:id="@+id/confirm_cases_foreign"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/total"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal|center_vertical"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="60dp">
+            <TextView
+                android:id="@+id/dischage"
+                android:textColor="#fff"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/total"
+                android:layout_gravity="center_horizontal|center_vertical"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="60dp">
+            <TextView
+                android:id="@+id/deaths"
+                android:textColor="#fff"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/total"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+            <TextView
+                android:id="@+id/confirm_but_no_location"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/total"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal|center_vertical"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

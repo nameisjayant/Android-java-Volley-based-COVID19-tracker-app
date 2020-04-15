@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Covid19 App</string>
+    <string name="city_cases">City Cases</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="total">total</string>
+    <string name="city">city</string>
+</resources>
